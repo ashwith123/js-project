@@ -86,13 +86,53 @@ void pattern8(int n){
 }
 }
 
+void pattern9(int n){ //sum of previos 2 patterns
+ for(int i=0;i<n;i++){
+    // prints spaces
+    for(int j=1;j<n-i;j++){
+        printf(" ");
+    }
+
+    //print  stars
+    for(int j=1;j<=(i*2)+1;j++){
+        printf("*");
+    }
+
+    //prints space
+    for(int j=1;j<n-i;j++){
+        printf(" ");
+    }printf("\n");
+}
+
+for(int i=0;i<=n;i++){
+    // prints spaces
+    for(int j=0;j<i;j++){
+        printf(" ");
+    }
+
+    //print  stars
+    for(int j=0;j<(2*n-(2*i+1));j++){
+        printf("*");
+    }
+
+    //prints space
+    for(int j=0;j<i;j++){
+        printf(" ");
+    }printf("\n");
+}
+}
+
+void pattern10(int n){
+    
+}
+
 int main(){
 
 int n;
 
 scanf("%d",&n);
 
-pattern8(n);
+pattern9(n);
 
     return 0;
 }
