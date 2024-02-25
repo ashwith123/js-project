@@ -204,7 +204,6 @@ void pattern(int n){//dint get it
           int left=j;
           int right=(2*n-2)-j;
           int bottom=(2*n-2)-i;  
-            printf
         }
     }
 }
@@ -219,3 +218,4 @@ square(n);
 
     return 0;
 }
+
